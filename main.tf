@@ -41,7 +41,7 @@ locals {
 }
 
 module "network" {
-  source         = "git::https://github.com/cloudposse/terraform-aws-route53-cluster-zone.git?ref=0.3.1"
+  source         = "git::https://github.com/cloudposse/terraform-aws-route53-cluster-zone.git?ref=0.4.0"
   network_config = local.network_config
 }
 
