@@ -1,5 +1,5 @@
 terraform {
-  source = "git::git@github.com:gruntwork-io/terragrunt-infrastructure-modules-example.git//mysql?ref=v0.0.2"
+  source = "git::git@github.com:gruntwork-io/terragrunt-infrastructure-modules-example.git//mysql?ref=v0.1.0"
 
   after_hook "provider" {
     commands = ["init-from-module"]
